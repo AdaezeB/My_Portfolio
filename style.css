@@ -6,6 +6,8 @@
 }
 
 h1 {
+  display: block;
+  display: inline;
   font-family: 'BilderbergItalic', sans-serif; 
   font-size: 70px;
   color: rgb(83, 2, 88);  
@@ -18,7 +20,7 @@ body {
 }
 
 h2[id= "about"] {
-  
+
     font-family: 'BilderbergItalic', sans-serif;
      color: rgb(83, 2, 88);
      text-align: left;
@@ -27,6 +29,6 @@ h2[id= "about"] {
 /*section[id = "about"] {
        background-color: rgb(196, 69, 196);
 }*/
-header {
+/*header {
         background-color: rgb(155, 101, 155);
-}
+}*/
