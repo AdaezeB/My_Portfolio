@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'BilderbergItalic';
+    src: url('fonts/bilderberg.italic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+  font-family: 'BilderbergItalic', sans-serif; 
+  font-size: 70px;
+  color: rgb(83, 2, 88);  
+  text-align: center;
+ 
+}
+body {
+  background-color: rgb(157, 139, 157);
+  
+}
+
+h2[id= "about"] {
+    font-family: 'BilderbergItalic', sans-serif;
+     color: rgb(83, 2, 88);
+     text-align: left;
+}
+
+/*section[id = "about"] {
+       background-color: rgb(196, 69, 196);
+}*/
+header {
+        background-color: rgb(155, 101, 155);
+}
