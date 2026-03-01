@@ -175,9 +175,9 @@ h1 {
 }
 
 .section-label {
-    font-size: 0.7rem;
+    font-size: 15px;
     text-transform: uppercase;
-    color: #999;
+    color: rgb(83, 2, 88);;
     margin-bottom: 30px;
     letter-spacing: 2px;
 }
@@ -204,6 +204,39 @@ h1 {
 
 .card:hover {
     background: #ebebeb;
+}
+
+footer {
+
+  padding-top: 2cm;
+  
+}
+footer h2{
+
+  color: rgb(83, 2, 88);
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+footer ul {
+
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    padding: 1cm;
+    
+
+}
+
+
+.Socials img{
+
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    
 }
 
 /* RESPONSIVE */
